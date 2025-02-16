@@ -1,0 +1,32 @@
+PS C:\Users\chrog_i4sgxvo> cd C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson> mkdir git_challenge
+
+
+    Directory: C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/02/16     23:40                git_challenge
+
+
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson> cd git_challenge
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git init
+Initialized empty Git repository in C:/Users/chrog_i4sgxvo/OneDrive/Desktop/lesson/git_challenge/.git/
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git hello_world.txt
+git: 'hello_world.txt' is not a git command. See 'git --help'.
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git commit -m "最初のコミット"                
+[main (root-commit) 13475ba] 最初のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge>  git add hello_world.txt
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git commit -m "2回目のコミット"
+[main ac08776] 2回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> git log --oneline
+ac08776 (HEAD -> main) 2回目のコミット
+13475ba 最初のコミット
+PS C:\Users\chrog_i4sgxvo\OneDrive\Desktop\lesson\git_challenge> 
